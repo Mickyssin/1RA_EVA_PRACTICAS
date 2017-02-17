@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_PR2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AKu-4w-xaj">
+                                <rect key="frame" x="20" y="28" width="560" height="1024"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="30216_metroid" translatesAutoresizingMaskIntoConstraints="NO" id="aNS-zw-f7Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="1024"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="aNS-zw-f7Q" secondAttribute="height" multiplier="35:128" id="xzh-eT-w5e"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Zelda_png" translatesAutoresizingMaskIntoConstraints="NO" id="ffT-ot-v8l">
+                                        <rect key="frame" x="280" y="0.0" width="280" height="1024"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ffT-ot-v8l" secondAttribute="height" multiplier="35:128" id="nng-A7-bb9"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="s9W-qk-Ksr">
+                                <rect key="frame" x="20" y="457" width="560" height="62"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ojp-Nl-2ZL">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="62"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Samus" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQW-pa-Y8z">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="21"/>
+                                                <color key="tintColor" red="1" green="0.35928239745105794" blue="0.1370793989865956" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="She is an elite human warrior raised by the chozo." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FS5-KY-g1g">
+                                                <rect key="frame" x="0.0" y="21" width="280" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.5534822903579435" blue="0.21435526708662533" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Q0d-Go-dhv">
+                                        <rect key="frame" x="280" y="0.0" width="280" height="62"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is Zelda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYy-8f-EJ0">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.069967535280000007" green="0.7744535561" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="She is the princces of Hyrule, she has the Wizdom triforce." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0n-pd-fIa">
+                                                <rect key="frame" x="0.0" y="21" width="280" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="0.35928239750000002" blue="0.13707939899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="s9W-qk-Ksr" secondAttribute="leading" id="4Ho-sb-P0J"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="AKu-4w-xaj" secondAttribute="leading" id="5vE-9G-k4I"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s9W-qk-Ksr" secondAttribute="bottom" constant="8" id="Eza-W5-GTc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s9W-qk-Ksr" secondAttribute="trailing" id="WSB-Ln-gNb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AKu-4w-xaj" secondAttribute="trailing" id="fbV-65-e8Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="420"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="30216_metroid" width="1280" height="1024"/>
+        <image name="Zelda_png" width="204" height="486"/>
+    </resources>
+</document>
